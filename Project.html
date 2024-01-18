@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url(WhatsApp\ Image\ 2024-01-18\ at\ 10.07.13\ AM.jpeg);
+        }
+        .full-container
+        {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 100px;
+
+        }
+        .container{
+            border: 2px  solid white;
+            width: 35%;
+            height:500px;
+            border-radius: 4px;
+        }
+        .feedback{
+            border: 2px  solid #0080FF;
+            background-color:#0080FF;
+            color: white;
+            text-align: center;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: larger;
+        }
+        .data{
+            height: 300px;
+            padding: 12px 40px;
+            margin-top: 40px;
+            font-size: large;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            color: white;
+
+        }
+
+        .numbers{
+        border: 2px solid black;
+        width: 40px;
+        border: none;
+        height: 40px;
+        margin-top: 20px;
+        border-radius: 4px;
+        background-color: whitesmoke;
+        border-radius: 30px;
+        width:40px;
+        transform: scale(1);
+        }
+        .numbers:hover{
+            background-color: #0080FF;
+            cursor: pointer;
+        }
+        .textarea{
+            width:440px;
+            height:100px;
+        }
+
+        .btn{
+            float:right;
+            margin-top:20px;
+            margin-right: 10px;
+            width:100px;
+            height:35px;
+            border-radius: 3px;
+            border: none;
+            /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+            background: #0080FF;
+            border-radius: 20px;
+            color: white;
+            /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+        }
+
+        .btn:hover{
+            /* border: 2px  solid #0080FF; */
+            background-color: white;
+            color: #0080FF;
+            cursor: pointer;
+
+        }
+
+        .sp{
+            color: yellow;
+        }
+        #cross{
+            float: right;
+            margin-right: 15px;
+            
+    
+        }
+
+    </style>
+</head>
+<body>
+    <div  class="full-container">
+    <div  class="container">
+    <div  class="feedback">
+        <h1>Send<span class="sp">Us</span> <span class="sp">your  feedback</span><span id="cross">✖</span></h1>
+    </div>
+    <div class="data">
+        Base  on your online recentb purchase. how  likely are ypo  to recommend us to  a collegue or  a  client
+        <br>
+        <button class="numbers">0</button>
+        <button class="numbers">1</button>
+        <button class="numbers">2</button>
+        <button class="numbers">3</button>
+        <button class="numbers">4</button>
+        <button class="numbers">5</button>
+        <button class="numbers">6</button>
+        <button class="numbers">7</button>
+        <button class="numbers">8</button>
+        <button class="numbers">9</button>
+
+
+
+        <p>Would you  like  to add  a  comment</p>
+        <div  class="box">
+            <textarea class="textarea">
+
+            </textarea>
+        </div>
+        
+        <div>
+            <button class="btn">Submit</button>
+        </div>
+    </div>
+</div>
+</div>
+</body>
+</html>
